@@ -34,4 +34,7 @@ Tutorial Reference: https://docs.oracle.com/javase/tutorial/deployment/jar/intro
     jarsigner -verify signed.jar
     ```
 
-6. Tamper with jar and verify.
+6. Tamper with jar, verify, and try executing.
+    ```bash
+    java -jar signed.jar
+    ```
